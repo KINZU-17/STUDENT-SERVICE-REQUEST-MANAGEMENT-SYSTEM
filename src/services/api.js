@@ -1,4 +1,5 @@
 const BASE_URL = 'http://localhost:5000';
+const STORAGE_KEY = 'studentRequests';
 
 export const requestService = {
   getAll: () => fetch(`${BASE_URL}/requests`).then(res => res.json()),

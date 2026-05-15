@@ -5,4 +5,6 @@ export const getStatusStyle = (status) => {
     Pending: 'bg-yellow-100 text-yellow-700'
   };
   return styles[status] || 'bg-gray-100';
-};
+}
+// Example usage:
+// const statusStyle = getStatusStyle('Approved'); // returns 'bg-green-100 text-green-700'
